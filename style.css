@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+}
+
+.page {
+  background: rgba(255, 255, 255, 0.1); 
+  padding: 2rem;
+  border-radius: 10px;
+  color:red;
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px); 
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.2);
+  width: 300px;
+  text-align: center;
+}
+
+.page h2{
+    color:red;
+    font-weight: 500;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 4px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  background-color: #ee632d;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
